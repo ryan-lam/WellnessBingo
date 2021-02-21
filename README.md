@@ -1,1 +1,1 @@
-# WellnessBingo
+# Wellness Bingo
