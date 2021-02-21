@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wellness</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <style>
+            body{
+                background-image: url(../static/background.jpg);
+                background-position: center;
+                background-size: cover;
+
+            }
+            .container{
+                background-color: transparent;
+                text-align: center;
+                float: left;
+                height: 90%;
+                width: 45%;
+                margin-left: 50px;
+            }
+            .col{
+                /* outline: 1px solid grey; */
+                aspect-ratio: 1/1;
+                margin: 1px;
+                border: none;
+                background-position: center;
+                opacity: 80%;
+            }
+
+            .col p{
+                margin: auto;
+                font-size: 25px;
+                color: black;
+                margin-top: 40%;
+                
+            }
+            .col:hover{
+                background-color: azure;
+            }
+            .side{
+                float: right;
+                margin-right: 100px;
+                width: 40%;
+                background-color: rgba(255, 255, 255, 0.5);
+                margin-top: 5%;
+            }
+            #box00{
+                background-image: url("../static/{{  colour00 }}");
+            }
+            #box01{
+                background-image: url("../static/{{  colour01 }}");
+            }
+            #box02{
+                background-image: url("../static/{{  colour02 }}");
+            }
+            #box03{
+                background-image: url("../static/{{  colour03 }}");
+            }
+            #box04{
+                background-image: url("../static/{{  colour04 }}");
+            }
+
+            #box10{
+                background-image: url("../static/{{  colour10 }}");
+            }
+            #box11{
+                background-image: url("../static/{{  colour11 }}");
+            }
+            #box12{
+                background-image: url("../static/{{  colour12 }}");
+            }
+            #box13{
+                background-image: url("../static/{{  colour13 }}");
+            }
+            #box14{
+                background-image: url("../static/{{  colour14 }}");
+            }
+
+            #box20{
+                background-image: url("../static/{{  colour20 }}");
+            }
+            #box21{
+                background-image: url("../static/{{  colour21 }}");
+            }
+            #box22{
+                background-image: url("../static/{{  colour22 }}");
+            }
+            #box23{
+                background-image: url("../static/{{  colour23 }}");
+            }
+            #box24{
+                background-image: url("../static/{{  colour24 }}");
+            }
+
+            
+            #box30{
+                background-image: url("../static/{{  colour30 }}");
+            }
+            #box31{
+                background-image: url("../static/{{  colour31 }}");
+            }
+            #box32{
+                background-image: url("../static/{{  colour32 }}");
+            }
+            #box33{
+                background-image: url("../static/{{  colour33 }}");
+            }
+            #box34{
+                background-image: url("../static/{{  colour34 }}");
+            }
+
+            #box40{
+                background-image: url("../static/{{  colour40 }}");
+            }
+            #box41{
+                background-image: url("../static/{{  colour41 }}");
+            }
+            #box42{
+                background-image: url("../static/{{  colour42 }}");
+            }
+            #box43{
+                background-image: url("../static/{{  colour43 }}");
+            }
+            #box44{
+                background-image: url("../static/{{  colour44 }}");
+            }
+            
+            button{
+                width: 40%;
+                outline: none;
+                border: none;
+
+            }
+            form{
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-4">
+            <div class="row">
+                <div id="box00" class="col" onclick="change(0, 0)"></div>
+                <div id="box01" class="col" onclick="change(0, 1)"></div>
+                <div id="box02" class="col" onclick="change(0, 2)"></div>
+                <div id="box03" class="col" onclick="change(0, 3)"></div>
+                <div id="box04" class="col" onclick="change(0, 4)"></div>
+            </div>
+            <div class="row">
+                <div id="box10" class="col" onclick="change(1, 0)"></div>
+                <div id="box11" class="col" onclick="change(1, 1)"></div>
+                <div id="box12" class="col" onclick="change(1, 2)"></div>
+                <div id="box13" class="col" onclick="change(1, 3)"></div>
+                <div id="box14" class="col" onclick="change(1, 4)"></div>
+            </div>
+            <div class="row">
+                <div id="box20" class="col" onclick="change(2, 0)"></div>
+                <div id="box21" class="col" onclick="change(2, 1)"></div>
+                <div id="box22" class="col" onclick="change(2, 2)"></div>
+                <div id="box23" class="col" onclick="change(2, 3)"></div>
+                <div id="box24" class="col" onclick="change(2, 4)"></div>
+            </div>
+            <div class="row">
+                <div id="box30" class="col" onclick="change(3, 0)"></div>
+                <div id="box31" class="col" onclick="change(3, 1)"></div>
+                <div id="box32" class="col" onclick="change(3, 2)"></div>
+                <div id="box33" class="col" onclick="change(3, 3)"></div>
+                <div id="box34" class="col" onclick="change(3, 4)"></div>
+            </div>
+            <div class="row">
+                <div id="box40" class="col" onclick="change(4, 0)"></div>
+                <div id="box41" class="col" onclick="change(4, 1)"></div>
+                <div id="box42" class="col" onclick="change(4, 2)"></div>
+                <div id="box43" class="col" onclick="change(4, 3)"></div>
+                <div id="box44" class="col" onclick="change(4, 4)"></div>
+            </div>
+        </div>
+            <div class="side">
+                <h2 class="mt-5 fs-1 text-center">Task</h2>
+                <p id = "description" class="text-center fs-3">{{  description  }}</p>
+                <form action="/" method="post" name="name"> <!--action="/" method="post" name="name"-->
+                    <button id="done" type="submit" name="content" value="0 0 True" class="m-3 btn btn-lg btn-danger text-center">Done</button> <!-- type="submit" name="content" -->
+                    <button id="notdone" type="submit" name="content" value="0 0 False" class="m-3 btn btn-lg btn-danger text-center">Not Done</button>
+                    <div class="mt-6 text-center">
+                        <button id="reveal" type="submit" name="content" value="0 0 Complete" class="m-3 btn btn-lg btn-light text-center">Reveal Image</button>
+                        <button id="reset" type="submit" name="content" value="0 0 Undo" class="m-3 btn btn-lg btn-light text-center">Reset</button>
+                    </div>
+                </form>
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            <script>
+                var done = document.getElementById("done");
+                var notdone = document.getElementById("notdone");
+                var desc = document.getElementById("description");
+                var colouruse = document.getElementById("secret");
+                
+                items = [["do 10 jumping jacks", "find a dog", "find a watch", "find an old coin", "budget your money"], 
+ ["draw a stickman", "listen to music", "watch a streamer", "search for a Leonardo DiCaprio movie", 'play a game of chess'],
+ ["learn a new skill", "experiment with different spices", "drink a cup of water", "write down your dreams", "eat a piece of chocolate"],
+ ["read about igloos", "watch an NBA game", "message a friend", "get some sun light", 'jump up and down 5 times'],
+ ["complete a jigsaw puzzle", "play a brain teaser", "write down gift ideas", "learn about wellness", "wash your hands"],];
+ 
+                whatrow = 0;
+                whatcol = 0;
+                function change(row, col){
+                    whatrow = row;
+                    whatcol = col;
+                    done.value = row + " " + col + " True";
+                    notdone.value = row + " " + col + " False";
+                    desc.innerHTML = items[row][col]
+                }
+            </script>
+    </body>
+</html>
