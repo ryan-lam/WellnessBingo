@@ -177,13 +177,14 @@
             </div>
         </div>
             <div class="side">
+                <img src="../static/wellness-bingo.png" style="width: 60%; margin-left: 25%; margin-top: 50px;">
                 <h2 class="mt-5 fs-1 text-center">Task</h2>
                 <p id = "description" class="text-center fs-3">{{  description  }}</p>
                 <form action="/" method="post" name="name"> <!--action="/" method="post" name="name"-->
                     <button id="done" type="submit" name="content" value="0 0 True" class="m-3 btn btn-lg btn-danger text-center">Done</button> <!-- type="submit" name="content" -->
                     <button id="notdone" type="submit" name="content" value="0 0 False" class="m-3 btn btn-lg btn-danger text-center">Not Done</button>
                     <div class="mt-6 text-center">
-                        <button id="reveal" type="submit" name="content" value="0 0 Complete" class="m-3 btn btn-lg btn-light text-center">Reveal Image</button>
+                        <!-- <button id="reveal" type="submit" name="content" value="0 0 Complete" class="m-3 btn btn-lg btn-light text-center">Reveal Image</button> -->
                         <button id="reset" type="submit" name="content" value="0 0 Undo" class="m-3 btn btn-lg btn-light text-center">Reset</button>
                     </div>
                 </form>
