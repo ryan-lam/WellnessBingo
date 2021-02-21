@@ -1,5 +1,5 @@
 # Wellness Bingo
-![](https://github.com/ryan-lam/WellnessBingo/blob/main/wellness-bingo.png)
+![](https://github.com/ryan-lam/WellnessBingo/blob/main/static/wellness-bingo.png)
 
 ## Inspiration
 We were inspired by the gamification of simple day-to-day activities and tasks, and decided to apply that gamification concept to health and wellness
@@ -28,9 +28,4 @@ We built a database of potential tasks that are to be done by the user. The boar
 - Add an animation for when the tasks are completed and tiles change color
 
 ## Demo Video
-
-## Built By:
-- Ryan Lam
-- Jax Wang
-- Ming Zhang
-
+[Wellness Bingo - Demo Video](https://youtu.be/RXuirUNSwhM)
