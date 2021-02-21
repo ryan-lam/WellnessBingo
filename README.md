@@ -23,7 +23,7 @@ We built a database of potential tasks that are to be done by the user. The boar
 - How to read/write info between the front and backend using Flask
 - Working with 3D arrays in python
 
-## What's next for Hunt for the Art!
+## What's next for Wellness Bingo
 - Have custom tasks that users can add
 - Add an animation for when the tasks are completed and tiles change color
 
